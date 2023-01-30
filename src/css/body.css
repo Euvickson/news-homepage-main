@@ -1,0 +1,47 @@
+.grid__main-container {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    gap: 1rem;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 3;
+    align-items: center;
+}
+
+.grid__image {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.grid__title {
+    font-size: 4rem;
+}
+
+.grid__description {
+
+}
+
+.description__paragraph {
+    font-size: 1.5rem;
+}
+
+.description__button {
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    padding: 1.25rem 3rem;
+}
+
+.grid__main-new {
+
+}
