@@ -1,7 +1,9 @@
 .grid__main-container {
     display: grid;
     grid-template-columns: 66% 33%;
+    grid-template-rows: 100%;
     gap: 1rem;
+    margin: 32px;
 }
 
 .grid__container {
@@ -19,18 +21,25 @@
 }
 
 .grid__title {
-    font-size: 4rem;
+    box-sizing: content-box;
+    font-size: 3.5rem;
 }
 
 .grid__description {
-
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .description__paragraph {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .description__button {
+    align-self: baseline;
     background-color: hsl(5, 85%, 63%);
     border: none;
     color: #FFFFFF;
@@ -40,8 +49,50 @@
     letter-spacing: .3rem;
     text-transform: uppercase;
     padding: 1.25rem 3rem;
+    transition: .5s;
+}
+
+.description__button:hover {
+    background-color: hsl(240, 100%, 5%);
 }
 
 .grid__main-new {
+    box-sizing: content-box;
+    background-color: hsl(240, 100%, 5%);
+    padding: 0 .75rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.new__title {
+    color: hsl(35, 77%, 62%);
+    font-size: 2.75rem;
+}
+
+.new__notice {
+    border-bottom: solid 1px;
+    color: hsl(36, 100%, 99%);
+}
+
+.new__notice:last-child {
+    border: none;
+}
+
+.notice__title {
+    font-size: 1.5rem;
+}
+
+.notice__title a {
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+    transition: 0.5s;
+}
+
+.notice__title a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.notice__description {
+    color: hsl(233, 8%, 79%);
+    font-size: 1.2rem;
 }
