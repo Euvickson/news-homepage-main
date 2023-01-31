@@ -15,6 +15,10 @@
 }
 
 .grid__image {
+    background-image: url("../../assets/images/image-web-3-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -149,4 +153,24 @@
 .old__description {
     font-size: 20px;
     text-align: justify;
+}
+
+@media screen and (max-width: 975px) {
+    .grid__main-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid__image {
+        background-image: url('../../assets/images/image-web-3-mobile.jpg');
+        height: 50vh;
+        max-width: 100%;
+        min-width: 375px;
+    }
+
+    .grid__title {
+        margin-bottom: 0;
+    }
+    
 }

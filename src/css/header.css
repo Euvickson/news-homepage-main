@@ -20,3 +20,6 @@
 .list__link:hover {
     color: hsl(35, 77%, 62%);
 }
+
+@media screen and (max-width: 375px) {
+}
