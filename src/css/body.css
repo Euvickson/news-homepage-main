@@ -155,7 +155,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 375px) {
     .grid__main-container {
         align-items: center;
         display: flex;
@@ -165,12 +165,19 @@
     .grid__image {
         background-image: url('../../assets/images/image-web-3-mobile.jpg');
         height: 50vh;
+        flex-shrink: 1;
         max-width: 100%;
         min-width: 375px;
     }
 
     .grid__title {
         margin-bottom: 0;
+    }
+
+    .notice__old-container {
+        column-gap: 0;
+        margin-right: 0;
+        justify-content: flex-start;
     }
     
 }
