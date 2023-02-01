@@ -11,10 +11,16 @@
     gap: 30px;
 }
 
+.menu-mobile-div {
+    background-image: url('../../assets/images/icon-menu.svg');
+    display: none;
+    height: 17px;
+    width: 40px;
+}
+
 .menu-mobile {
     background-image: url('../../assets/images/icon-menu.svg');
     height: 17px;
-    display: none;
     width: 40px;
 }
 
@@ -38,7 +44,7 @@
         display: none;
     }
 
-    .menu-mobile {
+    .menu-mobile-div {
         display: flex;
     }
 }
