@@ -23,6 +23,8 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
+## My Solution
+
 For those who wants to see my challenge result, just click on the link bellow:
 
 https://news-homepage-main-pi-ten.vercel.app
