@@ -6,6 +6,10 @@
     --Soft-orange: hsl(35, 77%, 62%);
 }
 
+body {
+    min-width: 375px;
+}
+
 .grid__main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
